@@ -1,8 +1,3 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
 namespace API.DTOs
 {
     public class LoginDto
@@ -12,10 +7,13 @@ namespace API.DTOs
     }
 }
 
-// password: [
-//  '',
-//  [
-//    Validators.required,
-//    Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,}')
-//   ]
-// ]
+
+/*
+password: [
+  '',
+ [
+    Validators.required,
+   Validators.pattern('(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[$@$!%*?&])[A-Za-z\d$@$!%*?&].{8,}')
+   ]
+ ]
+ */
